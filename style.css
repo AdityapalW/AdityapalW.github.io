@@ -1,21 +1,99 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+    color: #333;
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #828282;
     padding: 1em;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
 }
 
-section {
-    padding: 20px;
+.portfolio {
+    font-size: 1.5em;
+    font-weight: bold;
 }
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    background-color: #eaeaea;
+}
+.intro-text {
+    flex: 2;
+    margin-right: 1em;
+}
+
+.intro-text h1 {
+    font-size: 2em;
+}
+
+.intro-text p {
+    margin: 0.5em 0;
+}
+
+
+
+
+.projects {
+    padding: 2em;
+    background-color: white;
+}
+.projects h2 {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.project-item {
+    width: 18%;
+    background-color: #f9f9f9;
+    padding: 1em;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.project-item h3 {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.project-item p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+
+.view-more {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.view-more a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 
 footer {
     background-color: #333;
