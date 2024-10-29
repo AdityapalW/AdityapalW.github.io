@@ -24,6 +24,17 @@ header {
     font-weight: bold;
 }
 
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
 .intro {
     display: flex;
     justify-content: space-between;
