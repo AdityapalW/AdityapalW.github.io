@@ -18,10 +18,20 @@ header {
     align-items: center;
     color: white;
 }
-
 .portfolio {
     font-size: 1.5em;
     font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
 }
 
 .intro {
