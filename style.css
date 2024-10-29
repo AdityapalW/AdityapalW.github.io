@@ -119,6 +119,34 @@ nav ul li a {
     border-radius: 5px;
 }
 
+.skills {
+    padding: 2em;
+    background-color: #eaeaea;
+}
+
+.skills h2 {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.skill-item {
+    background-color: #fff;
+    padding: 1em;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    min-width: 100px;
+    font-weight: bold;
+    color: #333;
+}
 
 footer {
     background-color: #333;
