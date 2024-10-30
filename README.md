@@ -4,4 +4,4 @@ Welcome to my personal portfolio! This website showcases my skills, projects, an
 
 
 ## License
-This project is open-source and available under the [MIT License](LICENSE.md).
+This project is open-source and available under the [MIT License](LICENSE).
