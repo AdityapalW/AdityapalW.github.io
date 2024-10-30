@@ -242,3 +242,10 @@ form button:hover {
 .social-media a:hover {
     color: #0073e6;
 }
+
+.social-media p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: #333;
+    
+}
