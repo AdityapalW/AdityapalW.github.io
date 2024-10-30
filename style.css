@@ -159,3 +159,77 @@ footer {
     
 }
 
+
+
+
+
+
+
+
+/*contacts section */
+.contact-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+.contact-section p {
+    margin-bottom: 1.5em;
+    color: #666;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+form label {
+    font-weight: bold;
+    text-align: left;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.8em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.8em;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+.social-media {
+    margin-top: 2em;
+}
+
+.social-media h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.social-media a {
+    margin: 0 1em;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #0073e6;
+}
